@@ -36,6 +36,7 @@ class ID1002 {
 	}
 
 	public static String add(String a, String b) {
+		//1.把字符串转为数组。
 		int al = a.length();
 		char[] as = new char[al];
 		for (int k = 0; k < al; k++) {
@@ -46,10 +47,13 @@ class ID1002 {
 		for (int k = 0; k < bl; k++) {
 			bs[k] = b.charAt(bl - 1 - k);
 		}
+		//2.把长的那串字符串的长度赋值给length。
 
 		int length = al;
 		if (length < bl)
 			length = bl;
+		
+		//3.新建一个char类型的数组用来储存结果。
 
 		char[] res = new char[length + 1];
 		int jw = 0;
