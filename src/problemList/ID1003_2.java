@@ -20,6 +20,7 @@ class ID1003_2 {
 				System.out.println();
 			}
 		}
+		sc.close();
 
 	}
 

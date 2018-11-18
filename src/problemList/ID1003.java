@@ -41,6 +41,7 @@ class ID1003 {
 		
 
 		}
+		sc.close();
 	}
 
 }

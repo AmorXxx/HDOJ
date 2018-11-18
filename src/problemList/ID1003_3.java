@@ -38,5 +38,6 @@ public class ID1003_3 {
 				System.out.println();
 			}
 		}
+		scanner.close();
 	}
 }
