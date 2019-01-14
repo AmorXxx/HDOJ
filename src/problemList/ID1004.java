@@ -21,6 +21,7 @@ class ID1004 {
 			}
 
 		}
+		sc.close();
 	}
 
 	public static String[] pickmax(String colorlist[]) {
